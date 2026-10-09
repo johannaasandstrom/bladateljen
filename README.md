@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# En växtateljé i Göteborg 🌱
 
-## Getting Started
+En modern och responsiv webbplats för en lokal växtateljé i Göteborg. Projektet kombinerar en varm, organisk estetik med en ren och modulär kodbas.
 
-First, run the development server:
+## Om projektet
+För att snabbt hitta formen och känslan för projektet användes **Lovable** som ett initialt prototypsverktyg. Konceptet har därefter tagits vidare till en professionell, egenkontrollerad Next.js-miljö. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Arbetet har fokuserat på att noggrant välja ut och modifiera element för att matcha specifika designpreferenser, samtidigt som vi prioriterar:
+- **Tillgänglighet och UX:** Säkerställer att webbplatsen är lättanvänd och tillgänglig för alla.
+- **Optimerad läsbarhet:** Exempelvis genom att implementera en skräddarsydd, frostad glaseffekt (`.frosted-background` med `backdrop-filter`) som lyfter fram texten tydligt mot bakgrundsbilden för en bättre användarupplevelse.
+- **Skalbar kodbas:** En ren och modulär struktur för enklare vidareutveckling.
+
+## 🛠️ Tech Stack
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Design System:** Anpassade `oklch`-färgvariabler och skräddarsydda CSS-klasser i `globals.css`
+- **Versionshantering:** Git & GitHub
+
+## 🚀 Kom igång
+
+Följ dessa steg för att starta projektet lokalt:
+
+1. **Installera beroenden:**
+   ```bash
+   npm install
+   npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
